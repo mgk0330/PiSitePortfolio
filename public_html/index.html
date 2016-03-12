@@ -18,30 +18,32 @@
         <!-- Including my own head tag items to boilerplate -->
         <link rel="stylesheet" href="css/NavBarCss.css">
         <link rel="stylesheet" href="css/base.css">
+        
+        <script src="js/NavBarRandomColor.js"></script>
         <!-- End of my Own Head tag items -->
         
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body>
+    <body onload="return ran_col()">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <nav class="nav">
+        <nav class="nav" >
             <ul>
                 <li>
-                    <a href="#">Nav Item</a>
+                    <a id="NavBarHome" href="#">Home</a>
                     <ul>
-                        <li><a href="#">Subnav Item</a></li>
-                        <li><a href="#">Subnav Item</a></li>
+                        <li><a id="NavBarHomeRaven" href="#">Raven's Page</a></li>
+                        <li><a id="NavBarHomeMatt" href="#">Matt's Page</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Nav Item</a>
+                    <a id="PlaceholderA" href="#">Nav Item</a>
                     <ul>
-                        <li><a href="#">Subnav Item</a></li>
-                        <li><a href="#">Subnav Item</a></li>
+                        <li><a id="PlaceholderB" href="#">Subnav Item</a></li>
+                        <li><a id="PlaceholderC" href="#">Subnav Item</a></li>
                     </ul>
                 </li>
             </ul>
