@@ -14,15 +14,16 @@
 .nav ul > li {
     float:left;
     position:relative;
+    padding-right: 10px;
 }
 .nav a {
     display:block;
     padding:10px 20px;
     line-height:1.2em;
-    color:#fff;
-    border-left:1px solid #595959;
+    color:black;
+    border-left:1px;
     border-radius: 25px;
-    background:#333;
+    /*background-color: #FF9900*/
 }
 .nav a:hover {
     text-decoration:none;
@@ -32,12 +33,12 @@
 }
 .nav li ul li {
     width:200px;
+    padding-top: 10px;
 }
 .nav li ul a {
     border:none;
 }
 .nav li ul a:hover {
-    background:rgba(0,0,0,0.2);
 }
 
 .nav li ul {
@@ -58,12 +59,4 @@
 .nav ul > li:hover ul {
     max-height:1000px;
     -webkit-transform:perspective(400) rotate3d(0,0,0,0);
-}
-
-@media only screen and (max-width: 800px) {
-  
-}
-
-@media only screen and (max-width: 220px) {
-
 }
