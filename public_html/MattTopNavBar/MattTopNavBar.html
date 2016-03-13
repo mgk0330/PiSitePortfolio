@@ -17,9 +17,10 @@
         <link rel="stylesheet" href="../css/MattNavBar/base.css">
         
         <script src="../js/MattNavBar/NavBarRandomColor.js"></script>
+        <base target="_parent" />
         <!-- End of my Own Head tag items -->
         
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body onload="return ran_col()">
         <!--[if lt IE 7]>
@@ -30,17 +31,24 @@
         <nav class="nav" >
             <ul>
                 <li>
-                    <a id="NavBarHome" href="#">Home</a>
+                    <a id="NavBarHome" href="../index.html">Home</a>
                     <ul>
-                        <li><a id="NavBarHomeRaven" href="#">Raven's Page</a></li>
-                        <li><a id="NavBarHomeMatt" href="#">Matt's Page</a></li>
+                        <li><a id="NavBarHomeRaven" href="../RavenHomePage/RavenHomePage.html">Raven's Page</a></li>
+                        <li><a id="NavBarHomeMatt" href="../MattHomePage/MattHomePage.html">Matt's Page</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a id="PlaceholderA" href="#">Nav Item</a>
+                    <a id="MattsButton" href="../MattHomePage/MattHomePage.html">Matt's Projects</a>
                     <ul>
-                        <li><a id="PlaceholderB" href="#">Subnav Item</a></li>
-                        <li><a id="PlaceholderC" href="#">Subnav Item</a></li>
+                        <li><a id="PlaceholderB" href="../index.html">Matt's Gaming Blog</a></li>
+                        <li><a id="PlaceholderC" href="../index.html">Subnav Item</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a id="RavensButton" href="../index.html">Raven's Button</a>
+                    <ul>
+                        <li><a id="PlaceholderD" href="../index.html">Subnav Item</a></li>
+                        <li><a id="PlaceholderE" href="../index.html">Subnav Item</a></li>
                     </ul>
                 </li>
             </ul>
@@ -50,8 +58,8 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
