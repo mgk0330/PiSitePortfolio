@@ -6,20 +6,20 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Matt's Code and Projects Page</title>
+        <title>Matt's Bio and Home page</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/MattHomePage/MattHomePage.css">
     </head>
     <body>
         <!-- DIV for iframe top nav so it is transparent with the background and appropriately posititoned -->
         <!-- These three lines go at the top of EVERY PAGE -->
-        <div style="position:absolute;left:0px;top:0px;font-size: 32px">
+        <div style="position:absolute;left:0px;top:0px;font-size: 32px; z-index: 100">
             <iframe src="../MattTopNavBar/MattTopNavBar.html">If you see this your Browser does not support iframes.</iframe>
         </div>
         
-        <!--<img src="../img/MattHomePage/Me.jpg"/>-->
-        <div style="position:absolute;left:740px;top:50px;font-size: 20px; width: 430px">
+        <img class="sideimgA" src="../img/MattHomePage/Me.jpg"/>
+        
+        <div class="Main">
             <h1>
                 Matthew Gregory Kerns
             </h1>
@@ -35,17 +35,24 @@ and open the template in the editor.
                 Experience:
             </h2>
             <p>
-                Currently working for <a href="http://www.troweprice.com">T. Rowe Price</a> doing Change and 
+                Currently working for T. Rowe Price doing Change and 
                 Incident management as well as Escalated Customer Support.  This involves ensuring internal and 
                 external system stability by approving and front-lining change in the environment.  It also extends
                 to assisting clients with technical issues and interfacing with support teams to provide a high quality
                 of service.  I have also served as an assistant webmaster working on a project to update the 
-                <a href="http://www.fta.dot.gov">FTA</a> webstie.
+                FTA webstie.
             </p>
             <h2>
                 Interests:
             </h2>
-            <p></p>
+            <p>
+                I enjoy hardware and software projects as a hobby at the enthusiast level.  Building and maintaining
+                both Linux and Windows servers, as well as a high end Windows PC for video encoding and gaming.  On top
+                of that I enjoy network infrastructure and maintain a complex personal network with multiple nodes.  
+                I am getting into web hosting and website building and looking to run my own exchange server from a
+                Raspberry Pi.  Please check out my hardware projects and code examples for more of what I do in my free 
+                time.
+            </p>
         </div>
     </body>
 </html>

@@ -63,4 +63,16 @@ function ran_col() { //function name
     var color='#';
     color += letters[Math.floor(Math.random() * letters.length)];
     document.getElementById('PlaceholderE').style.background = color; // Setting the random color on your div element.
+    
+    //See lines 7+8 and 12 - 14 for detailed information on this code segment
+    //For ID PlaceholderC
+    var color='#';
+    color += letters[Math.floor(Math.random() * letters.length)];
+    document.getElementById('PlaceholderF').style.background = color; // Setting the random color on your div element.
+    
+    //See lines 7+8 and 12 - 14 for detailed information on this code segment
+    //For ID PlaceholderC
+    var color='#';
+    color += letters[Math.floor(Math.random() * letters.length)];
+    document.getElementById('PlaceholderG').style.background = color; // Setting the random color on your div element.
 }
