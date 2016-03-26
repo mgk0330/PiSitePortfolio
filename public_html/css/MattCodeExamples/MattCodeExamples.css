@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 26, 2016, 11:39:48 AM
+    Author     : mgk03
+*/
+
+/* This iframe CSS need to go on any page using the MattTopNavBar iframe */
+iframe {
+    width: 1200px;
+    height: 275px;
+    border: 0;
+    frameborder: 0;
+    allowTransparency: true;
+}
+
+.background {
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+        background-color: #131313;
+        background-size: 20px 20px;
+    overflow-x: hidden;
+    font-family: monospace;
+}
+
+.nav ul {
+    border-radius: 25px;
+    list-style:none;
+    margin: 10px;
+    padding:0;
+}
+.nav ul:before,.nav ul:after {
+    content:"";
+    display:table;
+}
+.nav ul:after {
+    clear:both;
+}
+.nav ul > li {
+    float:left;
+    position:relative;
+    padding-right: 10px;
+    text-align: center;
+}
+.nav a {
+    display:block;
+    padding:10px 20px;
+    line-height:1.2em;
+    color:black;
+    border-left:1px;
+    border-radius: 25px;
+    /*background-color: #FF9900*/
+}
+.nav a:hover {
+    text-decoration:none;
+    border-radius: 25px;
+}
+.nav li ul {
+}
+.nav li ul li {
+    width:220px;
+    padding-top: 10px;
+}
+.nav li ul a {
+    border:none;
+}
+.nav li ul a:hover {
+}
+
+.nav li ul {
+    border-radius: 25px;
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
+}
+.nav ul > li:hover ul {
+    max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+}
+
+.Main{
+    padding-top: 280px;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 768px;
+    z-index: 99;
+}
+
+.bannerimgA {
+    border-radius: 50px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 90px;
+    Width: 500px;
+    padding-right: 20px;
+    z-index: 98;
+}

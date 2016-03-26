@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Matt's Code Examples</title>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="../css/MattCodeExamples/MattCodeExamples.css">
+        <link rel="stylesheet" href="../css/MattNavBar/base.css">
+        <script src="../js/MattNavBar/NavBarRandomColor.js"></script>
+        <base target="_parent" />
+    </head>
+    <body class="background" onload="return ran_colb()">
+        <!-- DIV for iframe top nav so it is transparent with the background and appropriately posititoned -->
+        <!-- These three lines go at the top of EVERY PAGE -->
+        <div style="position:absolute;left:0px;top:0px;font-size: 32px; z-index: 100">
+            <iframe src="../MattTopNavBar/MattTopNavBar.html">If you see this your Browser does not support iframes.</iframe>
+        </div>
+        <img class="bannerimgA" src="../img/MattCodeExamples/code.png"/>
+        <div class="Main">
+            <nav class="nav" >
+                <ul>
+                    <li>
+                        <a id="CPP" href="#">C/C++</a>
+                    </li>
+                    <li>
+                        <a id="Java" href="#">Java/JavaScript</a>
+                    </li>
+                    <li>
+                        <a id="html" href="#">HTML/CSS</a>
+                    </li>
+                    <li>
+                        <a id="php" href="#">PHP/SQL</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </body>
+</html>
