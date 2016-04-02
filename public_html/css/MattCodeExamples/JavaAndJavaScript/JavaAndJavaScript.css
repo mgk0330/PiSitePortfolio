@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 2, 2016, 10:29:40 AM
+    Author     : mgk03
+*/
+
+/* This iframe CSS need to go on any page using the MattTopNavBar iframe */
+iframe {
+    width: 1200px;
+    height: 275px;
+    border: 0;
+    frameborder: 0;
+    allowTransparency: true;
+}
+
+.background {
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+        background-color: #131313;
+        background-size: 20px 20px;
+    overflow-x: hidden;
+    font-family: monospace;
+}
+
+.Main{
+    padding-left: 20px;
+    font-size: 20px;
+    width: 768px;
+    color: darkkhaki;
+    z-index: 99;
+}
+
+.heading {
+    padding-top: 50px;
+    padding-left: 20px;
+    font-size: 40px;
+    width: 768px;
+    color: darkkhaki;
+    z-index: 99;
+    font-weight: bolder;
+}
